@@ -1,0 +1,1 @@
+{"expo":{"name":"RRAcademy","slug":"rracademy","scheme":"rracademy","version":"1.0.0","orientation":"portrait","android":{"package":"com.rracademy.student"},"plugins":["expo-router"],"experiments":{"typedRoutes":true}}}

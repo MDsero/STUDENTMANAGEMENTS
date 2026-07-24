@@ -1,0 +1,1 @@
+import {supabase} from './supabase'; export async function me(){const{data:{user}}=await supabase.auth.getUser();if(!user)throw new Error('Please sign in again');const{data,error}=await supabase.from('students').select('*').eq('user_id',user.id).single();if(error)throw error;return data}
